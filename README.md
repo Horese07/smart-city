@@ -1,4 +1,4 @@
-# RAMADANIA · Smart Tourism — Tamraght
+#  Smart Tourism 
 
 **Smart Tourism Geoportal** for a hackathon demo (RAMADANIA, Morocco). Interactive, mobile-first prototype with **OpenStreetMap + Leaflet** (no API key), business vitrines, and a simulated AI tourist assistant.
 
