@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# RAMADANIA · Smart Tourism — Tamraght
 
-## Getting Started
+**Smart Tourism Geoportal** for a hackathon demo (RAMADANIA, Morocco). Interactive, mobile-first prototype with **OpenStreetMap + Leaflet** (no API key), business vitrines, and a simulated AI tourist assistant.
 
-First, run the development server:
+## ✨ Features
+
+### 🗺️ **Interactive Map (OpenStreetMap + Leaflet)**
+- **No API key required** — uses free OSM and CARTO tile layers
+- **Base map switcher** — Streets (OSM), Dark, Light (CARTO)
+- **Markers & popups** with POI details, images, “View Products” and “Contact”
+- **Layer toggles** — show/hide POI categories from the sidebar
+- **Zoom control** (bottom-right)
+
+### 🎛️ **Professional Sidebar**
+- **Layer management** — toggle POI categories on/off
+- **Base map** — Streets (OSM), Dark, Light
+- **Active legend** — see which layers are visible
+- **Dark mode toggle**
+
+### 📍 **Points of Interest**
+- **~20 POIs** in Tamraght: surf schools, cafés, restaurants, hostels, shops
+- **Interactive popups** with images, descriptions, and action buttons
+- **Category filtering** via sidebar and search
+- **Search** in header
+
+### 🏢 **Business Vitrine**
+- **Side panel** (slides in from right)
+- **Product/service listings** with images and prices
+- **WhatsApp contact** (dummy links)
+- **Dark-themed** UI
+
+### 🤖 **Simulated AI Assistant**
+- **Floating chat** (bottom-right)
+- **Canned responses** (e.g. “Where can I surf?”, “Best café near me?”)
+- **No backend** — keyword-based only
+
+### 🎨 **UI/UX**
+- **Dark theme** by default
+- **Mobile-first**, responsive
+- **Professional header** with search and controls
+- **“LIVE”** indicator for demo
+
+## 🚀 Tech Stack
+
+- **Framework:** Next.js 16 (App Router), React 19
+- **Styling:** Tailwind CSS 4
+- **Map:** Leaflet + react-leaflet, OpenStreetMap & CARTO tiles (no API key)
+- **Data:** Static JSON (`src/data/pois.json`)
+- **Hosting:** Vercel-ready
+
+## 📦 Setup
+
+### 1. Install dependencies
+
+```bash
+npm install --legacy-peer-deps
+```
+
+*(`--legacy-peer-deps` is needed for React 19 with react-leaflet.)*
+
+### 2. Run locally
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**No API keys or environment variables are required.**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🏗️ Build & Deploy
 
-## Learn More
+```bash
+npm run build
+npm start
+```
 
-To learn more about Next.js, take a look at the following resources:
+Deploy to Vercel: connect the repo and deploy. No env vars needed.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📁 Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+src/
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── globals.css
+├── components/
+│   ├── Map.tsx          # Leaflet + OSM map
+│   ├── MapWrapper.tsx    # Dynamic import wrapper
+│   ├── Sidebar.tsx       # Layer controls
+│   ├── Header3D.tsx      # Header
+│   ├── BusinessPanel.tsx
+│   └── ChatWidget.tsx
+├── data/
+│   ├── pois.json
+│   └── chatResponses.ts
+└── types/
+    └── poi.ts
+```
 
-## Deploy on Vercel
+## 📊 Data
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+All content is static. Edit:
+- `src/data/pois.json` — POIs, products, contact links
+- `src/data/chatResponses.ts` — AI assistant responses
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📝 License
+
+MIT.

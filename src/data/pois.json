@@ -1,0 +1,285 @@
+[
+  {
+    "id": 1,
+    "name": "Surf Tamraght",
+    "category": "Surf School",
+    "description": "Learn surfing in Tamraght with certified instructors. Beginner to advanced lessons at Imourann beach.",
+    "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=400&h=300&fit=crop",
+    "lat": 30.512,
+    "lng": -9.678,
+    "products": [
+      { "name": "Surfboard rental (half day)", "price": "20€", "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=200&h=150&fit=crop" },
+      { "name": "Group lesson (2h)", "price": "35€", "image": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?w=200&h=150&fit=crop" },
+      { "name": "Private lesson (2h)", "price": "60€", "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=200&h=150&fit=crop" }
+    ],
+    "contact": "https://wa.me/212600000001"
+  },
+  {
+    "id": 2,
+    "name": "Ocean Ride Surf Camp",
+    "category": "Surf School",
+    "description": "Surf camp and school with accommodation. Daily lessons and board hire.",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&h=300&fit=crop",
+    "lat": 30.509,
+    "lng": -9.675,
+    "products": [
+      { "name": "Week surf package", "price": "280€", "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=200&h=150&fit=crop" },
+      { "name": "Wetsuit rental", "price": "15€/day", "image": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=200&h=150&fit=crop" }
+    ],
+    "contact": "https://wa.me/212600000002"
+  },
+  {
+    "id": 3,
+    "name": "Café Panorama",
+    "category": "Café",
+    "description": "Scenic terrace with ocean views. Fresh juices, smoothies, and Moroccan coffee.",
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&h=300&fit=crop",
+    "lat": 30.511,
+    "lng": -9.676,
+    "products": [
+      { "name": "Moroccan coffee", "price": "2.50€", "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=200&h=150&fit=crop" },
+      { "name": "Fresh orange juice", "price": "3€", "image": "https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?w=200&h=150&fit=crop" },
+      { "name": "Avocado toast", "price": "6€", "image": "https://images.unsplash.com/photo-1541519227354-08fa5d50c44d?w=200&h=150&fit=crop" }
+    ],
+    "contact": "https://wa.me/212600000003"
+  },
+  {
+    "id": 4,
+    "name": "Sunset Café",
+    "category": "Café",
+    "description": "Best sunset views in Tamraght. Breakfast, lunch, and mint tea.",
+    "image": "https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=400&h=300&fit=crop",
+    "lat": 30.510,
+    "lng": -9.677,
+    "products": [
+      { "name": "Mint tea", "price": "1.50€", "image": "https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=200&h=150&fit=crop" },
+      { "name": "Breakfast plate", "price": "8€", "image": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=200&h=150&fit=crop" }
+    ],
+    "contact": "https://wa.me/212600000004"
+  },
+  {
+    "id": 5,
+    "name": "Dar Tamraght",
+    "category": "Restaurant",
+    "description": "Traditional Moroccan cuisine. Tagine, couscous, and fresh fish.",
+    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=400&h=300&fit=crop",
+    "lat": 30.5115,
+    "lng": -9.6765,
+    "products": [
+      { "name": "Lamb tagine", "price": "12€", "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=200&h=150&fit=crop" },
+      { "name": "Couscous (Friday)", "price": "10€", "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f2a26?w=200&h=150&fit=crop" },
+      { "name": "Grilled fish", "price": "14€", "image": "https://images.unsplash.com/photo-1519708227418-8e6736b067d0?w=200&h=150&fit=crop" }
+    ],
+    "contact": "https://wa.me/212600000005"
+  },
+  {
+    "id": 6,
+    "name": "La Plage Restaurant",
+    "category": "Restaurant",
+    "description": "Beachfront dining. Seafood and international dishes.",
+    "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=400&h=300&fit=crop",
+    "lat": 30.508,
+    "lng": -9.674,
+    "products": [
+      { "name": "Seafood platter", "price": "22€", "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=200&h=150&fit=crop" },
+      { "name": "Salad & fries", "price": "7€", "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=200&h=150&fit=crop" }
+    ],
+    "contact": "https://wa.me/212600000006"
+  },
+  {
+    "id": 7,
+    "name": "Tamraght Hostel",
+    "category": "Hostel",
+    "description": "Budget-friendly dorm and private rooms. Rooftop and common area.",
+    "image": "https://images.unsplash.com/photo-1520277739336-7bf67edfa768?w=400&h=300&fit=crop",
+    "lat": 30.5105,
+    "lng": -9.6772,
+    "products": [
+      { "name": "Dorm bed", "price": "12€/night", "image": "https://images.unsplash.com/photo-1520277739336-7bf67edfa768?w=200&h=150&fit=crop" },
+      { "name": "Private double", "price": "35€/night", "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=200&h=150&fit=crop" }
+    ],
+    "contact": "https://wa.me/212600000007"
+  },
+  {
+    "id": 8,
+    "name": "Surf House Tamraght",
+    "category": "Hostel",
+    "description": "Surfer-friendly hostel with board storage and beach shuttle.",
+    "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=400&h=300&fit=crop",
+    "lat": 30.5095,
+    "lng": -9.6758,
+    "products": [
+      { "name": "Bed in shared room", "price": "15€/night", "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=200&h=150&fit=crop" },
+      { "name": "Surf + stay package", "price": "45€/day", "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=200&h=150&fit=crop" }
+    ],
+    "contact": "https://wa.me/212600000008"
+  },
+  {
+    "id": 9,
+    "name": "Village Shop Tamraght",
+    "category": "Shop",
+    "description": "Local crafts, souvenirs, and daily essentials.",
+    "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400&h=300&fit=crop",
+    "lat": 30.5112,
+    "lng": -9.6768,
+    "products": [
+      { "name": "Argan oil (50ml)", "price": "8€", "image": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=200&h=150&fit=crop" },
+      { "name": "Handwoven bag", "price": "25€", "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=200&h=150&fit=crop" }
+    ],
+    "contact": "https://wa.me/212600000009"
+  },
+  {
+    "id": 10,
+    "name": "Wave Rider Shop",
+    "category": "Shop",
+    "description": "Surf gear, boards, wetsuits, and beachwear.",
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop",
+    "lat": 30.5098,
+    "lng": -9.676,
+    "products": [
+      { "name": "Surf wax", "price": "3€", "image": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=200&h=150&fit=crop" },
+      { "name": "Rash guard", "price": "35€", "image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=200&h=150&fit=crop" }
+    ],
+    "contact": "https://wa.me/212600000010"
+  },
+  {
+    "id": 11,
+    "name": "Mint Café",
+    "category": "Café",
+    "description": "Cozy spot for coffee and pastries. Free Wi-Fi.",
+    "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=400&h=300&fit=crop",
+    "lat": 30.5108,
+    "lng": -9.6762,
+    "products": [
+      { "name": "Cappuccino", "price": "3€", "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=200&h=150&fit=crop" },
+      { "name": "Croissant", "price": "2€", "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=200&h=150&fit=crop" }
+    ],
+    "contact": "https://wa.me/212600000011"
+  },
+  {
+    "id": 12,
+    "name": "Riad Tamraght",
+    "category": "Restaurant",
+    "description": "Rooftop restaurant with Moroccan and Mediterranean menu.",
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=300&fit=crop",
+    "lat": 30.5118,
+    "lng": -9.677,
+    "products": [
+      { "name": "Chicken tagine", "price": "11€", "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=200&h=150&fit=crop" },
+      { "name": "Vegetarian plate", "price": "9€", "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=200&h=150&fit=crop" }
+    ],
+    "contact": "https://wa.me/212600000012"
+  },
+  {
+    "id": 13,
+    "name": "Atlantic Surf Academy",
+    "category": "Surf School",
+    "description": "Certified ISA instructors. Kids and adults lessons.",
+    "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=400&h=300&fit=crop",
+    "lat": 30.5085,
+    "lng": -9.6745,
+    "products": [
+      { "name": "2-hour group lesson", "price": "30€", "image": "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=200&h=150&fit=crop" },
+      { "name": "5-day course", "price": "130€", "image": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?w=200&h=150&fit=crop" }
+    ],
+    "contact": "https://wa.me/212600000013"
+  },
+  {
+    "id": 14,
+    "name": "Beach House Hostel",
+    "category": "Hostel",
+    "description": "Steps from Imourann beach. Bar and shared kitchen.",
+    "image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=400&h=300&fit=crop",
+    "lat": 30.5078,
+    "lng": -9.6738,
+    "products": [
+      { "name": "Dorm", "price": "14€/night", "image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=200&h=150&fit=crop" },
+      { "name": "Twin room", "price": "40€/night", "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=200&h=150&fit=crop" }
+    ],
+    "contact": "https://wa.me/212600000014"
+  },
+  {
+    "id": 15,
+    "name": "Berber Artisan",
+    "category": "Shop",
+    "description": "Authentic Berber crafts, rugs, and jewelry.",
+    "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=400&h=300&fit=crop",
+    "lat": 30.5115,
+    "lng": -9.6775,
+    "products": [
+      { "name": "Berber rug (small)", "price": "80€", "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=200&h=150&fit=crop" },
+      { "name": "Silver necklace", "price": "45€", "image": "https://images.unsplash.com/photo-1515562141207-7a222e1da6f8?w=200&h=150&fit=crop" }
+    ],
+    "contact": "https://wa.me/212600000015"
+  },
+  {
+    "id": 16,
+    "name": "Coast Coffee",
+    "category": "Café",
+    "description": "Specialty coffee and healthy bowls. Vegan options.",
+    "image": "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?w=400&h=300&fit=crop",
+    "lat": 30.5102,
+    "lng": -9.6755,
+    "products": [
+      { "name": "Flat white", "price": "3.50€", "image": "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?w=200&h=150&fit=crop" },
+      { "name": "Acai bowl", "price": "7€", "image": "https://images.unsplash.com/photo-1590301157890-4810ed352733?w=200&h=150&fit=crop" }
+    ],
+    "contact": "https://wa.me/212600000016"
+  },
+  {
+    "id": 17,
+    "name": "Fisherman's Table",
+    "category": "Restaurant",
+    "description": "Daily catch, grilled and tagine. Family-run.",
+    "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=400&h=300&fit=crop",
+    "lat": 30.5082,
+    "lng": -9.675,
+    "products": [
+      { "name": "Catch of the day", "price": "15€", "image": "https://images.unsplash.com/photo-1559847844-5315695dadae?w=200&h=150&fit=crop" },
+      { "name": "Seafood soup", "price": "6€", "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=200&h=150&fit=crop" }
+    ],
+    "contact": "https://wa.me/212600000017"
+  },
+  {
+    "id": 18,
+    "name": "Tamraght Yoga & Surf",
+    "category": "Surf School",
+    "description": "Yoga and surf combo. Morning sessions by the beach.",
+    "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=300&fit=crop",
+    "lat": 30.5092,
+    "lng": -9.6765,
+    "products": [
+      { "name": "Yoga class", "price": "12€", "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=200&h=150&fit=crop" },
+      { "name": "Yoga + surf day", "price": "45€", "image": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?w=200&h=150&fit=crop" }
+    ],
+    "contact": "https://wa.me/212600000018"
+  },
+  {
+    "id": 19,
+    "name": "Souk Tamraght",
+    "category": "Shop",
+    "description": "Local market stall. Spices, dates, and handicrafts.",
+    "image": "https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=400&h=300&fit=crop",
+    "lat": 30.511,
+    "lng": -9.6778,
+    "products": [
+      { "name": "Spice set", "price": "10€", "image": "https://images.unsplash.com/photo-1506368249639-73a05d6f6488?w=200&h=150&fit=crop" },
+      { "name": "Dates (500g)", "price": "5€", "image": "https://images.unsplash.com/photo-1599599810769-bcde5a160d32?w=200&h=150&fit=crop" }
+    ],
+    "contact": "https://wa.me/212600000019"
+  },
+  {
+    "id": 20,
+    "name": "Rooftop Hostel",
+    "category": "Hostel",
+    "description": "Chill rooftop with sea view. Dorms and private rooms.",
+    "image": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=400&h=300&fit=crop",
+    "lat": 30.5106,
+    "lng": -9.6768,
+    "products": [
+      { "name": "Dorm bed", "price": "13€/night", "image": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=200&h=150&fit=crop" },
+      { "name": "Private room", "price": "38€/night", "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=200&h=150&fit=crop" }
+    ],
+    "contact": "https://wa.me/212600000020"
+  }
+]
